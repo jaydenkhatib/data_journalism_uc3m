@@ -1,0 +1,457 @@
+   user_id           status_id           created_at                 
+ Length:1000        Length:1000        Min.   :2021-12-30 17:58:26  
+ Class :character   Class :character   1st Qu.:2022-01-06 22:50:11  
+ Mode  :character   Mode  :character   Median :2022-02-07 03:02:18  
+                                       Mean   :2022-02-15 06:41:43  
+                                       3rd Qu.:2022-03-23 16:22:41  
+                                       Max.   :2022-05-14 16:09:02  
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+ screen_name            text              source          display_text_width
+ Length:1000        Length:1000        Length:1000        Min.   : 23.0     
+ Class :character   Class :character   Class :character   1st Qu.:116.0     
+ Mode  :character   Mode  :character   Mode  :character   Median :140.0     
+                                                          Mean   :123.7     
+                                                          3rd Qu.:140.0     
+                                                          Max.   :140.0     
+                                                          NA's   :923       
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+ reply_to_status_id reply_to_user_id   reply_to_screen_name  is_quote      
+ Length:1000        Length:1000        Length:1000          Mode :logical  
+ Class :character   Class :character   Class :character     FALSE:987      
+ Mode  :character   Mode  :character   Mode  :character     TRUE :13       
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+ is_retweet      favorite_count    retweet_count     quote_count   
+ Mode :logical   Min.   :  0.000   Min.   : 0.000   Min.   : 0.00  
+ FALSE:387       1st Qu.:  0.000   1st Qu.: 0.000   1st Qu.: 0.00  
+ TRUE :613       Median :  0.000   Median : 0.000   Median : 0.00  
+                 Mean   :  2.574   Mean   : 0.591   Mean   : 0.08  
+                 3rd Qu.:  0.000   3rd Qu.: 0.000   3rd Qu.: 0.00  
+                 Max.   :404.000   Max.   :98.000   Max.   :16.00  
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+                                                                   
+  reply_count     hashtags.Length  hashtags.Class  hashtags.Mode
+ Min.   : 0.000   1          -none-     character               
+ 1st Qu.: 0.000   1          -none-     character               
+ Median : 0.000   1          -none-     character               
+ Mean   : 0.262   1          -none-     character               
+ 3rd Qu.: 0.000   1          -none-     character               
+ Max.   :32.000   1          -none-     character               
+                  1          -none-     character               
+                  1          -none-     character               
+                  1          -none-     character               
+                  1          -none-     character               
+                  1          -none-     character               
+ symbols.Length  symbols.Class  symbols.Mode
+ 1          -none-     character            
+ 1          -none-     character            
+ 1          -none-     character            
+ 1          -none-     character            
+ 1          -none-     character            
+ 1          -none-     character            
+ 1          -none-     character            
+ 1          -none-     character            
+ 1          -none-     character            
+ 1          -none-     character            
+ 1          -none-     character            
+ urls_url.Length  urls_url.Class  urls_url.Mode
+ 1          -none-     character               
+ 1          -none-     character               
+ 1          -none-     character               
+ 1          -none-     character               
+ 1          -none-     character               
+ 1          -none-     character               
+ 1          -none-     character               
+ 1          -none-     character               
+ 1          -none-     character               
+ 1          -none-     character               
+ 1          -none-     character               
+ urls_t.co.Length  urls_t.co.Class  urls_t.co.Mode
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ urls_expanded_url.Length  urls_expanded_url.Class  urls_expanded_url.Mode
+ 1          -none-     character                                          
+ 1          -none-     character                                          
+ 1          -none-     character                                          
+ 1          -none-     character                                          
+ 1          -none-     character                                          
+ 1          -none-     character                                          
+ 1          -none-     character                                          
+ 1          -none-     character                                          
+ 1          -none-     character                                          
+ 1          -none-     character                                          
+ 1          -none-     character                                          
+ media_url.Length  media_url.Class  media_url.Mode
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ 1          -none-     character                  
+ media_t.co.Length  media_t.co.Class  media_t.co.Mode
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ media_expanded_url.Length  media_expanded_url.Class  media_expanded_url.Mode
+ 1          -none-     character                                             
+ 1          -none-     character                                             
+ 1          -none-     character                                             
+ 1          -none-     character                                             
+ 1          -none-     character                                             
+ 1          -none-     character                                             
+ 1          -none-     character                                             
+ 1          -none-     character                                             
+ 1          -none-     character                                             
+ 1          -none-     character                                             
+ 1          -none-     character                                             
+ media_type.Length  media_type.Class  media_type.Mode
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ 1          -none-     character                     
+ ext_media_url.Length  ext_media_url.Class  ext_media_url.Mode
+ 1          -none-     character                              
+ 1          -none-     character                              
+ 1          -none-     character                              
+ 1          -none-     character                              
+ 1          -none-     character                              
+ 1          -none-     character                              
+ 1          -none-     character                              
+ 1          -none-     character                              
+ 1          -none-     character                              
+ 1          -none-     character                              
+ 1          -none-     character                              
+ ext_media_t.co.Length  ext_media_t.co.Class  ext_media_t.co.Mode
+ 1          -none-     character                                 
+ 1          -none-     character                                 
+ 1          -none-     character                                 
+ 1          -none-     character                                 
+ 1          -none-     character                                 
+ 1          -none-     character                                 
+ 1          -none-     character                                 
+ 1          -none-     character                                 
+ 1          -none-     character                                 
+ 1          -none-     character                                 
+ 1          -none-     character                                 
+ ext_media_expanded_url.Length  ext_media_expanded_url.Class  ext_media_expanded_url.Mode
+ 1          -none-     character                                                         
+ 1          -none-     character                                                         
+ 1          -none-     character                                                         
+ 1          -none-     character                                                         
+ 1          -none-     character                                                         
+ 1          -none-     character                                                         
+ 1          -none-     character                                                         
+ 1          -none-     character                                                         
+ 1          -none-     character                                                         
+ 1          -none-     character                                                         
+ 1          -none-     character                                                         
+ ext_media_type    
+ Length:1000       
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+ mentions_user_id.Length  mentions_user_id.Class  mentions_user_id.Mode
+ 1          -none-     character                                       
+ 1          -none-     character                                       
+ 1          -none-     character                                       
+ 1          -none-     character                                       
+ 1          -none-     character                                       
+ 1          -none-     character                                       
+ 1          -none-     character                                       
+ 1          -none-     character                                       
+ 1          -none-     character                                       
+ 1          -none-     character                                       
+ 1          -none-     character                                       
+ mentions_screen_name.Length  mentions_screen_name.Class  mentions_screen_name.Mode
+ 1          -none-     character                                                   
+ 1          -none-     character                                                   
+ 1          -none-     character                                                   
+ 1          -none-     character                                                   
+ 1          -none-     character                                                   
+ 1          -none-     character                                                   
+ 1          -none-     character                                                   
+ 1          -none-     character                                                   
+ 1          -none-     character                                                   
+ 1          -none-     character                                                   
+ 1          -none-     character                                                   
+     lang           quoted_status_id   quoted_text       
+ Length:1000        Length:1000        Length:1000       
+ Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character  
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+ quoted_created_at             quoted_source      quoted_favorite_count
+ Min.   :2021-12-31 04:07:05   Length:1000        Min.   :    1        
+ 1st Qu.:2022-01-07 18:19:42   Class :character   1st Qu.:    1        
+ Median :2022-02-09 17:45:39   Mode  :character   Median :   15        
+ Mean   :2022-01-30 03:45:50                      Mean   : 2922        
+ 3rd Qu.:2022-02-12 05:45:09                      3rd Qu.: 2965        
+ Max.   :2022-03-16 02:16:33                      Max.   :10800        
+ NA's   :987                                      NA's   :987          
+                                                                       
+                                                                       
+                                                                       
+                                                                       
+ quoted_retweet_count quoted_user_id     quoted_screen_name quoted_name       
+ Min.   :  0          Length:1000        Length:1000        Length:1000       
+ 1st Qu.:  2          Class :character   Class :character   Class :character  
+ Median :  3          Mode  :character   Mode  :character   Mode  :character  
+ Mean   :283                                                                  
+ 3rd Qu.:792                                                                  
+ Max.   :833                                                                  
+ NA's   :987                                                                  
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+ quoted_followers_count quoted_friends_count quoted_statuses_count
+ Min.   :   1569        Min.   :  112        Min.   :   1353      
+ 1st Qu.:   8176        1st Qu.:  211        1st Qu.:   2264      
+ Median :  64048        Median :  562        Median :  22473      
+ Mean   : 392208        Mean   : 4251        Mean   : 299691      
+ 3rd Qu.: 802534        3rd Qu.: 1709        3rd Qu.: 150381      
+ Max.   :1296516        Max.   :24278        Max.   :1740676      
+ NA's   :987            NA's   :987          NA's   :987          
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+ quoted_location    quoted_description quoted_verified retweet_status_id 
+ Length:1000        Length:1000        Mode :logical   Length:1000       
+ Class :character   Class :character   FALSE:8         Class :character  
+ Mode  :character   Mode  :character   TRUE :5         Mode  :character  
+                                       NA's :987                         
+                                                                         
+                                                                         
+                                                                         
+                                                                         
+                                                                         
+                                                                         
+                                                                         
+ retweet_text       retweet_created_at            retweet_source    
+ Length:1000        Min.   :2020-06-03 21:57:06   Length:1000       
+ Class :character   1st Qu.:2022-01-02 03:05:13   Class :character  
+ Mode  :character   Median :2022-02-09 15:49:35   Mode  :character  
+                    Mean   :2022-02-05 19:54:03                     
+                    3rd Qu.:2022-03-20 01:54:29                     
+                    Max.   :2022-05-12 00:42:43                     
+                    NA's   :387                                     
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+ retweet_favorite_count retweet_retweet_count retweet_user_id   
+ Min.   :    0.0        Min.   :    1.00      Length:1000       
+ 1st Qu.:   10.0        1st Qu.:    5.00      Class :character  
+ Median :  107.0        Median :   24.00      Mode  :character  
+ Mean   :  196.7        Mean   :   58.35                        
+ 3rd Qu.:  236.0        3rd Qu.:   81.00                        
+ Max.   :44945.0        Max.   :10350.00                        
+ NA's   :387            NA's   :387                             
+                                                                
+                                                                
+                                                                
+                                                                
+ retweet_screen_name retweet_name       retweet_followers_count
+ Length:1000         Length:1000        Min.   :       4       
+ Class :character    Class :character   1st Qu.:   21219       
+ Mode  :character    Mode  :character   Median :   60037       
+                                        Mean   :  886906       
+                                        3rd Qu.:  196536       
+                                        Max.   :53003311       
+                                        NA's   :387            
+                                                               
+                                                               
+                                                               
+                                                               
+ retweet_friends_count retweet_statuses_count retweet_location  
+ Min.   :    2         Min.   :   208         Length:1000       
+ 1st Qu.:  619         1st Qu.: 25896         Class :character  
+ Median : 2374         Median : 79857         Mode  :character  
+ Mean   :16654         Mean   :120298                           
+ 3rd Qu.:23470         3rd Qu.:215822                           
+ Max.   :67733         Max.   :856121                           
+ NA's   :387           NA's   :387                              
+                                                                
+                                                                
+                                                                
+                                                                
+ retweet_description retweet_verified  place_url          place_name       
+ Length:1000         Mode :logical    Length:1000        Length:1000       
+ Class :character    FALSE:292        Class :character   Class :character  
+ Mode  :character    TRUE :321        Mode  :character   Mode  :character  
+                     NA's :387                                             
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+ place_full_name     place_type          country          country_code      
+ Length:1000        Length:1000        Length:1000        Length:1000       
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+ geo_coords.Length  geo_coords.Class  geo_coords.Mode
+ 2        -none-   numeric                           
+ 2        -none-   numeric                           
+ 2        -none-   numeric                           
+ 2        -none-   numeric                           
+ 2        -none-   numeric                           
+ 2        -none-   numeric                           
+ 2        -none-   numeric                           
+ 2        -none-   numeric                           
+ 2        -none-   numeric                           
+ 2        -none-   numeric                           
+ 2        -none-   numeric                           
+ coords_coords.Length  coords_coords.Class  coords_coords.Mode
+ 2        -none-   numeric                                    
+ 2        -none-   numeric                                    
+ 2        -none-   numeric                                    
+ 2        -none-   numeric                                    
+ 2        -none-   numeric                                    
+ 2        -none-   numeric                                    
+ 2        -none-   numeric                                    
+ 2        -none-   numeric                                    
+ 2        -none-   numeric                                    
+ 2        -none-   numeric                                    
+ 2        -none-   numeric                                    
+ bbox_coords.Length  bbox_coords.Class  bbox_coords.Mode  status_url       
+ 8        -none-   numeric                               Length:1000       
+ 8        -none-   numeric                               Class :character  
+ 8        -none-   numeric                               Mode  :character  
+ 8        -none-   numeric                                                 
+ 8        -none-   numeric                                                 
+ 8        -none-   numeric                                                 
+ 8        -none-   numeric                                                 
+ 8        -none-   numeric                                                 
+ 8        -none-   numeric                                                 
+ 8        -none-   numeric                                                 
+ 8        -none-   numeric                                                 
+     name             location         description            url           
+ Length:1000        Length:1000        Length:1000        Length:1000       
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+ protected       followers_count   friends_count      listed_count    
+ Mode :logical   Min.   :      0   Min.   :    0.0   Min.   :    0.0  
+ FALSE:1000      1st Qu.:    306   1st Qu.:  360.2   1st Qu.:    2.0  
+                 Median :   1506   Median :  999.0   Median :   10.0  
+                 Mean   :  41081   Mean   : 3725.7   Mean   :  403.7  
+                 3rd Qu.:   9631   3rd Qu.: 3498.2   3rd Qu.:   80.0  
+                 Max.   :8933889   Max.   :76166.0   Max.   :70156.0  
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+ statuses_count    favourites_count  account_created_at           
+ Min.   :      2   Min.   :      0   Min.   :2007-03-29 19:51:11  
+ 1st Qu.:  14638   1st Qu.:   1393   1st Qu.:2009-07-14 17:18:42  
+ Median :  51183   Median :  17337   Median :2013-01-24 11:12:58  
+ Mean   : 105327   Mean   :  66644   Mean   :2014-01-25 09:40:57  
+ 3rd Qu.: 130322   3rd Qu.:  71586   3rd Qu.:2018-04-07 15:08:25  
+ Max.   :2740244   Max.   :1484349   Max.   :2022-04-28 18:46:53  
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+  verified       profile_url        profile_expanded_url account_lang  
+ Mode :logical   Length:1000        Length:1000          Mode:logical  
+ FALSE:837       Class :character   Class :character     NA's:1000     
+ TRUE :163       Mode  :character   Mode  :character                   
+                                                                       
+                                                                       
+                                                                       
+                                                                       
+                                                                       
+                                                                       
+                                                                       
+                                                                       
+ profile_banner_url profile_background_url profile_image_url 
+ Length:1000        Length:1000            Length:1000       
+ Class :character   Class :character       Class :character  
+ Mode  :character   Mode  :character       Mode  :character  
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+ [ reached getOption("max.print") -- omitted 989 rows ]
